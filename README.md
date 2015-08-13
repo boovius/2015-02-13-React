@@ -22,4 +22,12 @@ https://github.com/ryanflorence/react-training/blob/gh-pages/lessons/05-wrapping
 
 http://react-router-mega-demo.herokuapp.com/
 
+Video Tutorial Status
+-------------------------------
+React Intro:
+- follow the install instructions on your readme ^^ and not on his
+readme on the screen- there is a typo that he addresses.
+- the file that he works on (ex 0) is not on the repo; meant for 
+you to just watch and not code along.  He will explain in a bit
+React Intro Questions:
 
