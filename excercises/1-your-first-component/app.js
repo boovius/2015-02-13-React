@@ -28,12 +28,14 @@ var Menu = React.createClass({
     })
     .sort(sortBy('name'))
     .map((item) => <li>{item.name}</li>);
-    return <div>
-  <h1>{DATA.title}</h1>
-  <ul>
-    {items}
-  </ul>
-</div>;
+    return (
+      <div>
+        <h1>{DATA.title}</h1>
+        <ul>
+          {items}
+        </ul>
+      </div>
+    );
   }
 });
 
