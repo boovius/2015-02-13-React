@@ -1,3 +1,34 @@
+//var React = require('react');
+//
+//var name = 'jbook';
+//
+//var Gravatar = React.createClass({
+//  render () {
+//    return(
+//      <ul>
+//        <li>{`hello ${this.props.email}`}</li>
+//        <li>{`space station ${this.props.spaceStation}`}</li>
+//      </ul>
+//  )
+//  }
+//});
+//
+//var element = <Gravatar email='jbook@email.com' spaceStation="ISS"/>
+//React.render(element, document.body);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////
 // Excercise:
 //
