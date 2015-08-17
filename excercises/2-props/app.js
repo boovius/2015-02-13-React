@@ -1,34 +1,3 @@
-//var React = require('react');
-//
-//var name = 'jbook';
-//
-//var Gravatar = React.createClass({
-//  render () {
-//    return(
-//      <ul>
-//        <li>{`hello ${this.props.email}`}</li>
-//        <li>{`space station ${this.props.spaceStation}`}</li>
-//      </ul>
-//  )
-//  }
-//});
-//
-//var element = <Gravatar email='jbook@email.com' spaceStation="ISS"/>
-//React.render(element, document.body);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ////////////////////////////////////////////////////////////////////////////////
 // Excercise:
 //
@@ -66,9 +35,17 @@ var emailType = (props, propName, componentName) => {
   );
 };
 
+var intType = (props, propName, componentName) => {
+  warning(
+      console.log(true),
+      `Invalid size '${props.size}' value sent to 'Gravatar'. Check the render method of '${componentName}'.`
+      );
+};
+
 var Gravatar = React.createClass({
   propTypes: {
-    email: emailType
+    email: emailType,
+    size: intType,
   },
 
   getDefaultProps () {
@@ -90,7 +67,7 @@ var App = React.createClass({
     var users = USERS.map((user) => {
       return (
         <li key={user.id}>
-          <Gravatar email={user.email} size={36} /> {user.name}
+          <Gravatar email={user.email} size={'asdf'} /> {user.name}
         </li>
       );
     });
@@ -105,5 +82,5 @@ var App = React.createClass({
 
 React.render(<App />, document.body);
 
-//require('./tests').run(Gravatar, emailType);
+require('./tests').run(Gravatar, emailType);
 
