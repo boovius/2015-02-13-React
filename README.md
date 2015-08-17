@@ -29,5 +29,9 @@ React Intro:
 readme on the screen- there is a typo that he addresses.
 - the file that he works on (ex 0) is not on the repo; meant for 
 you to just watch and not code along.  He will explain in a bit
-React Intro Questions:
+React Intro Questions: no notes
+JSX vs JavaScript functions:
+- Javascript functions: When React creates UI, it creates objs that rep html.  The elements with arguments.  A series of functions embeded in each other
+- JSX: you pass in blocks of html in a function.  React will turn the html into function calls that resembles the Javascript functions. Parens on the right side optional.
+- The people who look at React as a platform use Javascript but normally people use JSX; no performance tradeoffs with either one.
 
