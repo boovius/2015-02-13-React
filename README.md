@@ -37,3 +37,13 @@ JSX vs JavaScript functions:
 - JSX: you pass in blocks of html in a function.  React will turn the html into function calls that resembles the Javascript functions. Parens on the right side optional.
 - The people who look at React as a platform use Javascript but normally people use JSX; no performance tradeoffs with either one.
 
+Composite Components:
+- When you use React.createClass(), it's called a Composite Component
+- When you render it, do not call it directly, use React.createElement(Foobar, {}) within React.render()
+- or Turn this into a factory, and you may call it directly as Foobar().  
+
+Ex- 1 Rendering Data:
+- return() needs a root html element, like a div or something
+- the excercise actually wants you to omit the southern food
+- when doing this exercise, you will need to pass the id of the object to the component in the array.
+- you need a root element in your JSX
