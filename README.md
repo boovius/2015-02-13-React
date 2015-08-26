@@ -47,3 +47,8 @@ Ex- 1 Rendering Data:
 - the excercise actually wants you to omit the southern food
 - when doing this exercise, you will need to pass the id of the object to the component in the array.
 - you need a root element in your JSX
+
+Ex-2 Props:
+- in regards to bulletpoint number 3 in Ex 1, the Virtual DOM keeps an original copy and does a diff based on your changes, it will only 'do the diff' instead of trying to make a brand new copy based off of everything.  
+passing the key through helps keep track of things you are reordering. Great performance.
+
